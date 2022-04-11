@@ -24,7 +24,7 @@ GPIO.output(red_led, False) #Red LED OFF
 GPIO.output(green_led, False) #Green LED OFF
 
 
-myAPI = '1Z9A8ALS5IULVU3D' #APIkey
+myAPI = '' #APIkey
 baseURL = "http://api.thingspeak.com/update?api_key=%s"% myAPI
 
 print("waiting for sensor to settle")
